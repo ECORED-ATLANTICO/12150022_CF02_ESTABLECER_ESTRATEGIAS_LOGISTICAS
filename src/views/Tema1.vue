@@ -28,10 +28,9 @@
         p.mb-4.mb-lg-0 En la práctica, una estrategia logística parte del análisis de una necesidad o situación específica y establece qué hacer, cómo hacerlo, con qué recursos, en qué periodo y mediante qué indicadores se verificarán los resultados.
       .col-sm-6.col-lg-3
         figure
-          img(data-aos="fade-up")(src="@/assets/curso/tema1/2.png", alt="")
+          img.mb-4.mb-lg-0(data-aos="fade-up")(src="@/assets/curso/tema1/2.png", alt="")
       .col-sm-6.col-lg-3.bg-secundario-s5.rounded-4.p-3.p-xl-4
         p.mb-0 #[strong Ejemplo:] DHL implementa estrategias logísticas apoyadas en tecnología y seguimiento operativo para optimizar rutas de transporte y fortalecer la eficiencia en la distribución internacional.
-
 
     separador
     
@@ -111,7 +110,6 @@
       span Matrices estratégicas aplicadas a la logística
     .tabla-a.color-acento-contenido.tabla-a--text-left
       table
-        caption Nota. Adaptada de Ballou, (2004); Mora García, (2016); Anaya Tejero (2011). 
         thead
           tr(style="background-color: #ECF8FF")
             th Matriz estratégica 
@@ -140,7 +138,7 @@
     p.mb-4.mb-lg-5 Pasos para la aplicación de estrategias logísticas:
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
-      .col-lg-8
+      .col-lg-8.mb-4.mb-lg-0
         SlyderF(columnas="col-sm-6 col-xl-4")
           .tarjeta.tarjeta--blanca.px-4.pt-5.bg-cards
             .row.justify-content-center.mb-3
@@ -182,7 +180,7 @@
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema1/6.png", alt="")
 
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-xl-10
         .tarjeta.bg-video.p-4.p-lg-3
           .row.justify-content-around.align-items-center
@@ -193,9 +191,10 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 A continuación, se invita a ir al siguiente video para ampliar los conocimientos relacionados con estrategias logísticas y su aplicación en organizaciones industriales y servicios fortaleciendo la eficiencia operativa y mejorar el servicio al cliente: 
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=OPSNmuNgQaE" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=l_InY3fgP_g" target="_blank")
                     span Ir al recurso
-    .row.justify-content-center.align-items-center
+
+    .row.justify-content-center.align-items-center.mb-4
       .col-xl-10
         .tarjeta.bg-recurso.p-4.p-lg-3
           .row.justify-content-around.align-items-center
@@ -206,8 +205,23 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 Se invita al aprendiz a profundizar en estrategias logísticas, a través del siguiente artículo: 
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=OPSNmuNgQaE" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(href="https://tactio.es/wp-content/uploads/2022/04/Guia-estrategia-logistica-para-tu-negocio.pdf" target="_blank")
                     span Ir al recurso
+    
+    .row.justify-content-center.align-items-center
+      .col-lg-10.col-xl-8
+        .bg-audio.rounded-4.p-4
+          .row.align-items-center.justify-content-center
+            .col-8.col-sm-4
+              figure.pt-3
+                img.w-195.mb-4.mb-lg-0(src="@/assets/curso/tema1/16.png", alt="alt")
+            .col-sm-8.col-lg-8
+              p A continuación, se invita a ir al siguiente pódcast:
+              TarjetaAudio.mb-3(
+                texto="Estrategias logísticas: elemento clave para la competitividad empresarial"
+                tiempo
+                :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
+                @audio-hover="mostrarIndicadorTarjetaAudio = false")
 
 </template>
 
