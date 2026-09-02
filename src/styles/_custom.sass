@@ -61,9 +61,29 @@ figcaption, table caption
   background-color: $color-primario-p10
 .bg-adicional-1
   background-color: #DEE4F0
+.bg-grandiente-secundario
+  background: linear-gradient(90deg, rgba(240, 253, 243, 0.98) 0%, rgba(196, 247, 208, 1) 100%)
   
 .bg-slider
-  background: url('../assets/curso/common/bg-slider.png') no-repeat
+  background: url('../assets/curso/common/bg-slider.png')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+.bg-cards
+  background-image: url('../assets/curso/common/bg-cards.png')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+.bg-video
+  background-image: url('../assets/curso/common/bg-video.png')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+.bg-recurso
+  background-image: url('../assets/curso/common/bg-recurso.png')
   background-size: cover
   background-position: center
   background-repeat: no-repeat
@@ -103,8 +123,8 @@ figcaption, table caption
   width: 72px
   margin-left: auto
 
-.imgw-84
-  width: 84px
+.imgw-220
+  width: 220px
   margin: auto
 
 .cursor-pointer.crd_hover_txt
@@ -182,3 +202,41 @@ figcaption, table caption
     p, h3, strong
       color: $color-sistema-texto !important
     
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-image: url('../assets/curso/common/white-arrow.svg') !important
+
+.slyder-a__tipo-a .slyder-a__btn--sigt
+  right: 5px !important
+  @media screen and (min-width: $bp-max-xs)
+    right: 15px !important
+  
+.slyder-a__tipo-a .slyder-a__btn--atrs
+  left: 5px !important
+  @media screen and (min-width: $bp-max-xs)
+    left: 15px !important
+.slyder-a__tipo-a .slyder-a__bullets
+  bottom: 25px !important
+
+.slyder-f
+  align-items: center
+  border-radius: 20px
+
+  .slyder-f__main
+    width: 70%
+
+    @media (min-width: 769px)
+      width: 80%
+
+.slyder-f__btn
+  height: 35px
+  width: 35px
+  max-width: 35px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  color: $white
+  .fa-chevron-left
+    font-size: 20px
+  .fa-chevron-right
+    font-size: 20px
