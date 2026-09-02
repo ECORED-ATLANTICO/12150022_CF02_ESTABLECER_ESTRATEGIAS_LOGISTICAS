@@ -1,17 +1,14 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
+    Name: 'Formulación y verificación de estrategias logísticas',
+    Description:
+      'El componente formativo desarrolla competencias relacionadas con la formulación y verificación de estrategias logísticas mediante el análisis de objetivos, políticas organizacionales, planeación estratégica, presupuestos y normatividad aplicable a los procesos logísticos. Asimismo, fortalece la capacidad para establecer estrategias acordes con el nivel de servicio al cliente, las necesidades del mercado y el marco filosófico de la organización, promoviendo la sostenibilidad, competitividad y cumplimiento de las regulaciones nacionales e internacionales.',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
-      },
-      {
-        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.png',
       },
     ],
   },
@@ -31,39 +28,178 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Estrategias logísticas',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Concepto',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Tipos',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Matrices estratégicas',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Aplicabilidad',
+            hash: 't_1_4',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Objetivos logísticos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Concepto',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Tipos',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Diseño',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Aplicabilidad',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Política organizacional y logística',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Concepto',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Tipos',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Diseño',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Aplicabilidad',
+            hash: 't_3_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Tema 4',
+        titulo: 'Planeación estratégica y logística',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Concepto',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Tipos de planeación',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Contingencia estratégica',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Pasos',
+            hash: 't_4_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Tema 5',
+        titulo: 'Presupuestos logísticos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Concepto',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Tipos',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Aplicabilidad',
+            hash: 't_5_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Desarrollo sostenible',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Políticas sostenibles',
+            hash: 't_6_1',
+          },
+          {
+            numero: '6.2',
+            titulo: 'Ejecución',
+            hash: 't_6_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema7',
+        numero: '7',
+        titulo: 'Normatividad logística',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '7.1',
+            titulo: 'Normatividad vigente',
+            hash: 't_7_1',
+          },
+          {
+            numero: '7.2',
+            titulo: 'Aplicabilidad',
+            hash: 't_7_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema8',
+        numero: '8',
+        titulo: 'Ejemplo caso empresarial',
         desarrolloContenidos: true,
       },
     ],
