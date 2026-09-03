@@ -181,9 +181,6 @@
                     span Ir al recurso
 
 
-
-
-
 </template>
 
 <script>
