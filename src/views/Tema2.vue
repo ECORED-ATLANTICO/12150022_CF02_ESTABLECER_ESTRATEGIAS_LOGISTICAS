@@ -173,7 +173,7 @@
                 h4 Verificar resultados 
                 p.mb-0 Permite comparar los resultados obtenidos con los objetivos planteados para determinar la efectividad de las estrategias y reconocer posibles desviaciones. 
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-4
       .col-xl-10
         .bg-grandiente-secundario.p-4.py-lg-0.rounded-4
           .row.justify-content-center.align-items-center
@@ -183,7 +183,7 @@
               figure
                 img.imgw-220(src="@/assets/curso/tema1/4.png", alt="" data-aos="zoom-in-down")
 
-                .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4
       .col-xl-10
         .tarjeta.bg-video.p-4.p-lg-3
           .row.justify-content-around.align-items-center
