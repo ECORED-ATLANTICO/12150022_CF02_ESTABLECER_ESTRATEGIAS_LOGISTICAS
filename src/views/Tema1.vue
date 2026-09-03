@@ -113,8 +113,8 @@
         thead
           tr(style="background-color: #ECF8FF")
             th Matriz estratégica 
-            th Característica principal 
-            th Ejemplo empresarial 
+            th(colspan="2") Característica principal 
+            th(colspan="2") Ejemplo empresarial 
         tbody
           tr
             td Matriz DOFA 
