@@ -45,19 +45,19 @@
       .col-xl-9.mb-4.mb-xl-0
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-contenido-a10").mb-5
           div(titulo="Políticas de abastecimiento")
-            .ms-5
+            .ms-lg-5
               p Establece criterios para seleccionar proveedores, realizar compras y asegurar la disponibilidad oportuna de materiales y productos requeridos por la operación. 
               p.mb-0 #[strong Ejemplo:] mantener proveedores alternativos para productos críticos y disminuir riesgos de desabastecimiento. 
           div(titulo="Políticas de almacenamiento")
-            .ms-5
+            .ms-lg-5
               p Define condiciones para recepción, ubicación, conservación, manipulación y control de mercancías, buscando aprovechar adecuadamente los espacios y preservar los productos. 
               p.mb-0 #[strong Ejemplo:] ubicar mercancías según rotación, características y condiciones requeridas de almacenamiento. 
           div(titulo="Políticas de transporte")
-            .ms-5
+            .ms-lg-5
               p Orienta la selección de medios, rutas, frecuencias y condiciones de movilización necesarias para realizar entregas de manera eficiente y oportuna. 
               p.mb-0 #[strong Ejemplo:] consolidar pedidos por zonas antes de programar las rutas de distribución. 
           div(titulo="Políticas de servicio al cliente ")
-            .ms-5
+            .ms-lg-5
               p Establece parámetros de atención relacionados con tiempos de respuesta, disponibilidad, entregas, información y gestión de novedades durante el servicio logístico.  
               p.mb-0 #[strong Ejemplo:] atender las reclamaciones relacionadas con entregas dentro de un periodo previamente establecido. 
       .col-xl-3.d-none.d-xl-block
@@ -86,32 +86,32 @@
         thead
           tr(style="background-color: #ECF8FF")
             th Elemento 
-            th(colspan="5") Aplicación
+            th(colspan="3") Aplicación
         tbody
           tr
             td #[strong Diagnóstico organizacional]
-            td(colspan="5") Permite conocer las condiciones actuales de los procesos logísticos, identificando necesidades, dificultades, fortalezas y oportunidades que sirven como referencia para establecer lineamientos acordes con la realidad de la organización. 
+            td(colspan="3") Permite conocer las condiciones actuales de los procesos logísticos, identificando necesidades, dificultades, fortalezas y oportunidades que sirven como referencia para establecer lineamientos acordes con la realidad de la organización. 
           tr(style="background-color: #F6F6F6")
             td #[strong Objetivos organizacionales] 
-            td(colspan="5") Orientan la construcción de políticas hacia los resultados estratégicos esperados, procurando que las decisiones logísticas contribuyan al cumplimiento de las prioridades, metas y propósitos definidos por la organización. 
+            td(colspan="3") Orientan la construcción de políticas hacia los resultados estratégicos esperados, procurando que las decisiones logísticas contribuyan al cumplimiento de las prioridades, metas y propósitos definidos por la organización. 
           tr
             td #[strong Alcance de la política]
-            td(colspan="5") Delimita las áreas, procesos, actividades, recursos y actores sobre los cuales tendrá aplicación la política, facilitando su comprensión y evitando interpretaciones diferentes durante su implementación. 
+            td(colspan="3") Delimita las áreas, procesos, actividades, recursos y actores sobre los cuales tendrá aplicación la política, facilitando su comprensión y evitando interpretaciones diferentes durante su implementación. 
           tr(style="background-color: #F6F6F6")
             td #[strong Criterios de actuación]
-            td(colspan="5") Establecen parámetros para orientar decisiones y comportamientos frente a situaciones específicas, proporcionando referentes comunes para desarrollar las actividades logísticas de manera coherente con los lineamientos organizacionales. 
+            td(colspan="3") Establecen parámetros para orientar decisiones y comportamientos frente a situaciones específicas, proporcionando referentes comunes para desarrollar las actividades logísticas de manera coherente con los lineamientos organizacionales. 
           tr
             td #[strong Recursos y capacidades]
-            td(colspan="5") Consideran la disponibilidad de personal, infraestructura, tecnología, presupuesto y demás medios necesarios para determinar si los lineamientos establecidos pueden implementarse de manera viable dentro de la operación. 
+            td(colspan="3") Consideran la disponibilidad de personal, infraestructura, tecnología, presupuesto y demás medios necesarios para determinar si los lineamientos establecidos pueden implementarse de manera viable dentro de la operación. 
           tr(style="background-color: #F6F6F6")
             td #[strong Requisitos aplicables]
-            td(colspan="5") Integran las disposiciones legales, técnicas, contractuales y organizacionales relacionadas con la operación, procurando que las políticas formuladas respondan a las condiciones y obligaciones que debe cumplir la organización. 
+            td(colspan="3") Integran las disposiciones legales, técnicas, contractuales y organizacionales relacionadas con la operación, procurando que las políticas formuladas respondan a las condiciones y obligaciones que debe cumplir la organización. 
           tr
             td #[strong Responsabilidades]
-            td(colspan="5") Definen quiénes participan en la aplicación, comunicación, seguimiento y control de la política, facilitando la asignación de funciones y la coordinación entre las diferentes áreas involucradas. 
+            td(colspan="3") Definen quiénes participan en la aplicación, comunicación, seguimiento y control de la política, facilitando la asignación de funciones y la coordinación entre las diferentes áreas involucradas. 
           tr(style="background-color: #F6F6F6")
             td #[strong Seguimiento y actualización]
-            td(colspan="5") Facilitan revisar periódicamente el cumplimiento y pertinencia de las políticas, identificando necesidades de ajuste frente a cambios en los procesos, objetivos, normatividad, mercado o condiciones de la operación logística. 
+            td(colspan="3") Facilitan revisar periódicamente el cumplimiento y pertinencia de las políticas, identificando necesidades de ajuste frente a cambios en los procesos, objetivos, normatividad, mercado o condiciones de la operación logística. 
 
     separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")

@@ -26,7 +26,7 @@
         p En Colombia, la normatividad vigente en logística comprende las disposiciones legales, reglamentarias y técnicas que deben considerarse según el tipo de operación, mercancía y actividad desarrollada. Su aplicación permite orientar procesos de transporte, almacenamiento, distribución, seguridad, gestión ambiental y manejo de productos bajo condiciones establecidas por las autoridades competentes.
         .bg-primario-p5.rounded-4.p-4.py-3.mb-3
           p.mb-0 Cabe anotar que en el país no existe una única “ley de logística”. La actividad logística está regulada por diferentes normas según transporte, almacenamiento, comercio exterior, mercancías, seguridad, ambiente, alimentos y características de la operación. 
-        p.mb-0 Las principales nomas aplicables a la logística en Colombia son:
+        p.mb-4.mb-lg-0 Las principales nomas aplicables a la logística en Colombia son:
       .col-sm-6.col-lg-3
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema7/2.png", alt="")

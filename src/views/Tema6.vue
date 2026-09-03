@@ -34,19 +34,19 @@
       .col-xl-9
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-contenido-a10").mb-5
           div(titulo="Ambiental")
-            .ms-5
+            .ms-lg-5
               p Orienta la prevención y reducción de impactos ambientales derivados de las operaciones, considerando consumo de recursos, emisiones, residuos y uso responsable de materiales.
               p.mb-0 #[strong Ejemplo:] consolidar cargas y optimizar rutas para disminuir recorridos, consumo de combustible y emisiones asociadas al transporte.
           div(titulo="Eficiencia energética ")
-            .ms-5
+            .ms-lg-5
               p Establece criterios para controlar y disminuir el consumo energético de instalaciones, equipos, vehículos y tecnologías utilizadas en los procesos logísticos. 
               p.mb-0 #[strong Ejemplo:] sustituir progresivamente equipos de iluminación del almacén por alternativas de menor consumo energético. 
           div(titulo="Gestión de residuos ")
-            .ms-5
+            .ms-lg-5
               p Define lineamientos para prevenir, separar, aprovechar, recuperar o disponer adecuadamente los residuos generados durante las actividades de la organización. 
               p.mb-0 #[strong Ejemplo:] clasificar cartón, plástico y materiales de embalaje provenientes de la recepción y preparación de pedidos para facilitar su aprovechamiento. 
           div(titulo="Compras sostenibles")
-            .ms-5
+            .ms-lg-5
               p Incorpora criterios ambientales, sociales y económicos en la selección de proveedores, productos, materiales y servicios requeridos por la organización. 
               p.mb-0 #[strong Ejemplo:] evaluar proveedores considerando precio y cumplimiento, además del uso de empaques reciclables y prácticas responsables. 
 

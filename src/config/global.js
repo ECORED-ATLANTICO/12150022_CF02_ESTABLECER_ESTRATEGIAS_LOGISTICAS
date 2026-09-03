@@ -163,7 +163,7 @@ export default {
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: 'Desarrollo sostenible',
+        titulo: 'Desarrollo sostenible y logística',
         desarrolloContenidos: true,
         subMenu: [
           {

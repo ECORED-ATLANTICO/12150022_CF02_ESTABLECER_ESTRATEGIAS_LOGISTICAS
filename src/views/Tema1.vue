@@ -117,15 +117,15 @@
             th(colspan="2") Ejemplo empresarial 
         tbody
           tr
-            td Matriz DOFA 
+            td #[strong Matriz DOFA]
             td(colspan="2") Relaciona fortalezas y debilidades internas con oportunidades y amenazas del entorno para formular estrategias acordes con las condiciones de la organización. 
             td(colspan="2") Una empresa combina su amplia cobertura de distribución con el crecimiento del comercio electrónico para desarrollar entregas especializadas de última milla. 
           tr(style="background-color: #F6F6F6")
-            td Matriz BCG 
+            td #[strong Matriz BCG]
             td(colspan="2") Analiza unidades, productos o líneas de negocio considerando su participación y crecimiento, aportando información para orientar decisiones sobre recursos y operaciones logísticas. 
             td(colspan="2") Una línea con alta demanda y crecimiento puede requerir mayor capacidad de inventario, almacenamiento y distribución. 
           tr
-            td Matriz de crecimiento 
+            td #[strong Matriz de crecimiento]
             td(colspan="2") Identifica alternativas de crecimiento a partir de la relación entre los productos o servicios de una organización y los mercados en los que participa o pretende ingresar. 
             td(colspan="2") Una organización puede comparar cuatro posibilidades de crecimiento y posteriormente determinar cuál resulta más conveniente según demanda, inversión, infraestructura, capacidad logística, costos, riesgos y nivel de servicio requerido. 
 
