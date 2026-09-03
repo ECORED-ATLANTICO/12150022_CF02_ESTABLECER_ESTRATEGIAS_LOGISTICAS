@@ -75,11 +75,53 @@
           figure
             img.mb-4.mb-lg-0(src="@/assets/curso/tema6/4.png", alt="" data-aos="zoom-in-down")
 
+    separador
+
+    #t_6_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 6.2	Ejecución
+
+    img(data-aos="fade-up")(src="@/assets/curso/tema6/5.png", alt="")
+    .row.justify-content-center.z-2
+      .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
+        div.banner-text.shadow.mb-4
+          p.mb-0 La ejecución de estrategias sostenibles consiste en implementar acciones orientadas al cumplimiento de objetivos ambientales, sociales y económicos dentro de las operaciones logísticas. Esta fase permite aplicar prácticas relacionadas con ahorro energético, optimización de rutas, reciclaje y control de emisiones. Asimismo, la ejecución facilita el fortalecimiento de la competitividad empresarial y mejora la percepción de responsabilidad social frente a clientes y grupos de interés. 
+
+    p.mb-4.mb-lg-5 Las acciones aplicadas en logística sostenible son: 
 
 
+    .titulo-sexto.color-acento-contenido.mb-4
+      h5 Figura 2.
+      span Acciones aplicadas a la logística sostenible 
+    //- img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema5/6-mob.svg", alt="La figura muestra los cuatro tipos de kilates de oro que se presentan en joyería.")
+    img.mb-4(data-aos="fade-up", src="@/assets/curso/tema6/6.svg", alt="La figura representa la ejecución integrada de políticas sostenibles en las operaciones logísticas. El esquema muestra cómo diferentes acciones ambientales y tecnológicas se articulan para optimizar recursos, disminuir impactos y fortalecer la eficiencia operativa. Las conexiones entre los elementos evidencian un proceso continuo, en el que las decisiones relacionadas con transporte, recursos, materiales y tecnología contribuyen conjuntamente al desempeño responsable de la cadena logística y al equilibrio entre eficiencia, sostenibilidad y compromiso ambiental.")
 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-xl-10
+        .tarjeta.bg-video.p-4.p-lg-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-xl-2.d-none.d-lg-block
+              img.imgw-72(src="@/assets/curso/tema1/14.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con el desarrollo sostenible y logística: 
+                .col-sm-auto.d-flex.gap-2.flex-column
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=XwhB4diA7ks" target="_blank")
+                    span Ir al recurso
 
-
+    .row.justify-content-center.align-items-center.mb-4
+      .col-xl-10
+        .tarjeta.bg-recurso.p-4.p-lg-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-xl-2.d-none.d-lg-block
+              img.imgw-72(src="@/assets/curso/tema1/15.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.mb-0 Se invita al aprendiz a profundizar en el desarrollo sostenible y logística, a través del siguiente artículo: 
+                .col-sm-auto.d-flex.gap-2.flex-column
+                  a.boton.color-acento-botones.texto-blanco(href="https://log.logcluster.org/sites/default/files/sections/212/es/logistica-sostenible.pdf?1775363845" target="_blank")
+                    span Ir al recurso
 
 
 
