@@ -94,8 +94,8 @@
     .titulo-sexto.color-acento-contenido.mb-4
       h5 Figura 1.
       span Pasos para la aplicación de presupuestos logísticos
-    //- img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema5/4.png", alt="Pasos para la aplicación de presupuestos logísticos")
-    img.mb-4(data-aos="fade-up", src="@/assets/curso/tema5/5.svg", alt="La figura la aplicación progresiva de un presupuesto logístico dentro de una organización. La secuencia integra la identificación de necesidades operativas con la planificación y asignación de recursos financieros, así como su posterior seguimiento y evaluación. El carácter cíclico evidencia que la gestión presupuestal requiere revisión permanente y ajustes frente a los resultados obtenidos y las condiciones del entorno, favoreciendo el control de los recursos y la continuidad de las operaciones logísticas.")
+    img.mb-4.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema5/5-mob.svg", alt="La figura la aplicación progresiva de un presupuesto logístico dentro de una organización. La secuencia integra la identificación de necesidades operativas con la planificación y asignación de recursos financieros, así como su posterior seguimiento y evaluación. El carácter cíclico evidencia que la gestión presupuestal requiere revisión permanente y ajustes frente a los resultados obtenidos y las condiciones del entorno, favoreciendo el control de los recursos y la continuidad de las operaciones logísticas.")
+    img.mb-4.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema5/5.svg", alt="La figura la aplicación progresiva de un presupuesto logístico dentro de una organización. La secuencia integra la identificación de necesidades operativas con la planificación y asignación de recursos financieros, así como su posterior seguimiento y evaluación. El carácter cíclico evidencia que la gestión presupuestal requiere revisión permanente y ajustes frente a los resultados obtenidos y las condiciones del entorno, favoreciendo el control de los recursos y la continuidad de las operaciones logísticas.")
     //- figcaption Nota. Adaptada de SENA, (2026).
  
     .row.justify-content-center.mb-4

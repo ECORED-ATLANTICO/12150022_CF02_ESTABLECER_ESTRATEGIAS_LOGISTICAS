@@ -28,7 +28,7 @@
                   h5 Caso empresarial aplicado. Distribuciones Caribe S.A.S.
                   p.mb-0 Lo invitamos a descargar el siguiente documento, el cual explica de manera detallada la formulación y verificación de estrategias logísticas.
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.texto-blanco(href="https://tactio.es/wp-content/uploads/2022/04/Guia-estrategia-logistica-para-tu-negocio.pdf" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_01_Caso_Empresarial_Aplicado.pdf')" target="_blank" type="application/pdf")
                     span Ir al recurso
 
     .row.justify-content-center.align-items-center.mb-4
