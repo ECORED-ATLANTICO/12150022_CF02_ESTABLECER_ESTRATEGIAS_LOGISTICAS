@@ -229,7 +229,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/12150022_CF02_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -245,14 +245,169 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Abastecimiento',
+      significado:
+        'Proceso mediante el cual una organización adquiere productos, materiales o servicios necesarios para su operación.',
+    },
+
+    {
+      termino: 'Agenda local',
+      significado:
+        'Conjunto de lineamientos y estrategias orientadas al desarrollo económico y social de una región o territorio.',
+    },
+
+    {
+      termino: 'Cliente',
+      significado:
+        'Persona u organización que adquiere productos o servicios ofrecidos por una empresa.',
+    },
+
+    {
+      termino: 'Competitividad',
+      significado:
+        'Capacidad de una organización para mantenerse y destacarse en el mercado frente a otras empresas.',
+    },
+
+    {
+      termino: 'Contingencia estratégica',
+      significado:
+        'Situación imprevista que requiere acciones de respuesta para minimizar impactos dentro de la organización.',
+    },
+
+    {
+      termino: 'Desarrollo sostenible',
+      significado:
+        'Modelo de gestión orientado al equilibrio entre crecimiento económico, responsabilidad social y protección ambiental.',
+    },
+
+    {
+      termino: 'Estrategia logística',
+      significado:
+        'Conjunto de acciones orientadas a optimizar procesos de abastecimiento, almacenamiento y distribución.',
+    },
+
+    {
+      termino: 'Indicador',
+      significado:
+        'Herramienta utilizada para medir el desempeño y cumplimiento de objetivos organizacionales.',
+    },
+
+    {
+      termino: 'Logística',
+      significado:
+        'Proceso relacionado con la planificación, ejecución y control del flujo de bienes, servicios e información.',
+    },
+
+    {
+      termino: 'Matriz estratégica',
+      significado:
+        'Herramienta de análisis utilizada para apoyar la formulación de estrategias empresariales.',
+    },
+
+    {
+      termino: 'Mercado',
+      significado:
+        'Espacio físico o digital donde interactúan compradores y vendedores de bienes o servicios.',
+    },
+
+    {
+      termino: 'Misión',
+      significado:
+        'Declaración que describe la razón de ser y propósito principal de una organización.',
+    },
+
+    {
+      termino: 'Norma',
+      significado:
+        'Conjunto de reglas o disposiciones que regulan actividades y procesos dentro de una organización o sector económico.',
+    },
+
+    {
+      termino: 'Objetivo logístico',
+      significado:
+        'Resultado que la organización busca alcanzar mediante la gestión de sus procesos logísticos.',
+    },
+
+    {
+      termino: 'Planeación estratégica',
+      significado:
+        'Proceso orientado a definir objetivos y estrategias para el cumplimiento de metas organizacionales.',
+    },
+
+    {
+      termino: 'Presupuesto logístico',
+      significado:
+        'Estimación de recursos financieros destinados a actividades logísticas y operativas.',
+    },
+
+    {
+      termino: 'Servicio al cliente',
+      significado:
+        'Conjunto de actividades orientadas a satisfacer necesidades y expectativas del consumidor.',
+    },
+
+    {
+      termino: '<em>Stakeholders</em>',
+      significado:
+        'Personas o grupos que tienen interés o influencia en las actividades y decisiones de una organización.',
+    },
+
+    {
+      termino: 'Visión',
+      significado:
+        'Proyección futura que establece hacia dónde desea llegar una organización en determinado periodo de tiempo.',
     },
   ],
   referencias: [
     {
-      referencia: 'REF',
-      link: 'LINK',
+      referencia:
+        'Anaya Tejero, J. J. (2015). Logística integral: la gestión operativa de la empresa (5.ª ed.). ESIC Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ballou, R. H. (2004). Logística: administración de la cadena de suministro (5.ª ed.). Pearson Educación.',
+      link: 'https://laclassedotblog.wordpress.com/wp-content/uploads/2018/05/logistica_administracion_de_la_cadena_de_suministro_5ta_edicion_-_ronald_h-_ballou.pdf',
+    },
+    {
+      referencia:
+        'Banco Interamericano de Desarrollo. (2024, 13 de febrero). Impulsando la logística colaborativa para mejorar las cadenas de valor en América Latina y el Caribe.',
+      link: 'https://www.iadb.org/es/blog/transporte/impulsando-la-logistica-colaborativa-para-mejorar-las-cadenas-de-valor-en-america-latina-y-el-caribe',
+    },
+    {
+      referencia:
+        'Chase, R. B., Jacobs, F. R., & Aquilano, N. J. (2009). Administración de operaciones: producción y cadena de suministros (12.ª ed.). McGraw-Hill Interamericana.',
+      link: '',
+    },
+    {
+      referencia:
+        'Corporación Universitaria del Caribe - CECAR. (2022). Logística y cadena de suministro: aproximaciones teórico-prácticas.',
+      link: 'https://www.cecar.edu.co/documentos/editorial/e-book/logistica-y-cadena-de-suministro-digital.pdf',
+    },
+    {
+      referencia:
+        'David, F. R. (2013). Conceptos de administración estratégica (14.ª ed.). Pearson Educación.',
+      link: '',
+    },
+    {
+      referencia:
+        'Granada, I., Landaverde, O., Pinto Ayala, A. M., & Peña, M. (2022). Atlas de infraestructuras de integración de América Latina y el Caribe: Mapeando infraestructuras de transporte y logística de alto impacto en las cadenas de valor regionales.',
+      link: 'https://publications.iadb.org/es/publications/spanish/viewer/Atlas-infraestructuras-de-integracion-de-America-Latina-y-el-Caribe.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Transporte. (s. f.). ABC del Sistema de Información de Costos Eficientes para el Transporte Automotor de Carga (SICE-TAC). Gobierno de Colombia.',
+      link: 'https://sicetac.mintransporte.gov.co/SiceTAC/ABC-SICE-TAC',
+    },
+    {
+      referencia:
+        'Mora García, L. A. (2016). Gestión logística integral: las mejores prácticas en la cadena de abastecimiento (3.ª ed.). Ecoe Ediciones.',
+      link: '',
+    },
+    {
+      referencia:
+        'Porter, M. E. (2015). Ventaja competitiva: creación y sostenimiento de un desempeño superior. Grupo Editorial Patria.',
+      link: '',
     },
   ],
   creditos: [
@@ -276,18 +431,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Sergio Andrés Quintero Guzmán',
+          cargo: 'Experto temático',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Jair Enrique Coll Gallardo',
+          cargo: 'Evaluador instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -296,12 +446,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Carmen Alicia Martínez Torres ',
+          cargo: 'Diseñadora de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Fabio Fonseca Arguelles ',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -322,12 +472,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -337,7 +487,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
