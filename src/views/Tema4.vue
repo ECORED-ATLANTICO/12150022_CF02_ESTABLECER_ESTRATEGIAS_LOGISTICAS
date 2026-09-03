@@ -119,23 +119,56 @@
       
     p.mb-4.mb-lg-5 La formulación de procesos de planeación estratégica y logística requiere desarrollar actividades organizadas que permitan fortalecer la eficiencia operativa y apoyar la toma de decisiones empresariales. Los pasos para poder desarrollar una planeación estratégica y logística son los siguientes:
 
-    
-
-
-
-
-
-
-
-
-
+    SlyderF(columnas="col-sm-6 col-xl-4 mb-5")
+      .tarjeta.tarjeta--blanca.px-4.pt-5.bg-cards
+        .row.justify-content-center.mb-3
+          .col-6
+            img.imgw-80(src='@/assets/curso/tema1/7.png' alt='')
+        h5.text-center Analizar la situación actual de la organización
+        p.mb-4.mb-5.text-center Evaluar procesos, recursos, capacidades e indicadores para comprender el desempeño actual.
+      .tarjeta.tarjeta--blanca.px-4.pt-5.bg-cards
+        .row.justify-content-center.mb-3
+          .col-6
+            img.imgw-80(src='@/assets/curso/tema1/8.png' alt='')
+        h5.text-center Análisis interno y externo
+        p.mb-4.mb-5.text-center Identificar factores internos y externos que afectan los objetivos organizacionales y logísticos.
+      .tarjeta.tarjeta--blanca.px-4.pt-5.bg-cards
+        .row.justify-content-center.mb-3
+          .col-6
+            img.imgw-80(src='@/assets/curso/tema1/9.png' alt='')
+        h5.text-center Definir objetivos estratégicos y logísticos
+        p.mb-4.mb-5.text-center Establecer objetivos claros, medibles y alcanzables que guíen las decisiones logísticas y el cumplimiento estratégico.
+      .tarjeta.tarjeta--blanca.px-4.pt-5.bg-cards
+        .row.justify-content-center.mb-3
+          .col-6
+            img.imgw-80(src='@/assets/curso/tema1/10.png' alt='')
+        h5.text-center Diseñar estrategias alineadas con las necesidades organizacionales
+        p.mb-4.mb-5.text-center Formular estrategias que respondan a las necesidades de la organización y aprovechen las oportunidades.
+      .tarjeta.tarjeta--blanca.px-4.pt-5.bg-cards
+        .row.justify-content-center.mb-3
+          .col-6
+            img.imgw-80(src='@/assets/curso/tema1/11.png' alt='')
+        h5.text-center Establecer recursos y responsables para la ejecución
+        p.mb-4.mb-5.text-center Definir los recursos necesarios y asignar responsables para cada actividad.
+      .tarjeta.tarjeta--blanca.px-4.pt-5.bg-cards
+        .row.justify-content-center.mb-3
+          .col-6
+            img.imgw-80(src='@/assets/curso/tema1/12.png' alt='')
+        h5.text-center Implementar indicadores para seguimiento y control
+        p.mb-4.mb-5.text-center Seleccionar indicadores clave para monitorear el avance y controlar los resultados.
+      .tarjeta.tarjeta--blanca.px-4.pt-5.bg-cards
+        .row.justify-content-center.mb-3
+          .col-6
+            img.imgw-80(src='@/assets/curso/tema1/13.png' alt='')
+        h5.text-center Evaluar resultados y realizar acciones de mejora.
+        p.mb-4.mb-5.text-center Comparar resultados con los objetivos, identificar brechas y aplicar mejoras continuas.
 
     .row.justify-content-center.mb-4
       .col-xl-10
         .bg-grandiente-secundario.p-4.py-lg-0.rounded-4
           .row.justify-content-center.align-items-center
             .col-lg-9
-              p.mb-4.m-lg-0 #[strong Ejemplo:] Coca-Cola aplica políticas logísticas relacionadas con distribución, control operativo y servicio al cliente para fortalecer sus operaciones comerciales a nivel internacional.
+              p.mb-4.m-lg-0 #[strong Ejemplo:] Coca-Cola desarrolla procesos de planeación estratégica mediante análisis permanente del mercado y evaluación continua de indicadores operativos.
             .col-8.col-lg-3
               figure
                 img.imgw-220(src="@/assets/curso/tema1/4.png", alt="" data-aos="zoom-in-down")
@@ -149,9 +182,9 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con política organizacional, logística y su aplicación en empresas industriales, comerciales y de servicios.   
+                  p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con planeación estratégica y logística.  
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=kTbof9tbZOo" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=r46D3nOquaQ" target="_blank")
                     span Ir al recurso
 
     .row.justify-content-center.align-items-center
@@ -164,7 +197,7 @@
             .col-sm-8.col-lg-8
               p A continuación, se invita a ir al siguiente pódcast:
               TarjetaAudio.mb-3(
-                texto="Estrategias logísticas: elemento clave para la competitividad empresarial"
+                texto="Planeación estratégica y logística: decisiones organizacionales orientadas al crecimiento."
                 tiempo
                 :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false")           
