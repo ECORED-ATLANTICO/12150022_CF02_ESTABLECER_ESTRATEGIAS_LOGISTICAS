@@ -42,7 +42,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con casos donde las organizaciones requieren formular y verificar estrategias logísticas orientadas al fortalecimiento de la competitividad, optimización de recursos y mejoramiento del nivel de servicio al cliente:
+                  p.mb-0 A continuación, sen invita a consultar el siguiente video para fortalecer los conocimientos relacionados con casos donde las organizaciones requieren formular y verificar estrategias logísticas orientadas al fortalecimiento de la competitividad, optimización de recursos y mejoramiento del nivel de servicio al cliente:
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=VfSCXT750t8 " target="_blank")
                     span Ir al recurso

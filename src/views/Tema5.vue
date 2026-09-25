@@ -120,7 +120,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con presupuestos logísticos y su aplicación en organizaciones industriales, comerciales y de servicios. 
+                  p.mb-0 A continuación, sen invita a consultar el siguiente video para fortalecer los conocimientos relacionados con presupuestos logísticos y su aplicación en organizaciones industriales, comerciales y de servicios. 
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=mlhV9BQfEQ4" target="_blank")
                     span Ir al recurso

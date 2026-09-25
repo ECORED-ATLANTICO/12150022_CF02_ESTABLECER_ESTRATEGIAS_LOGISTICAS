@@ -189,7 +189,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 A continuación, se invita a ir al siguiente video para ampliar los conocimientos relacionados con estrategias logísticas y su aplicación en organizaciones industriales y servicios fortaleciendo la eficiencia operativa y mejorar el servicio al cliente: 
+                  p.mb-0 A continuación, sen invita a consultar el siguiente video para ampliar los conocimientos relacionados con estrategias logísticas y su aplicación en organizaciones industriales y servicios fortaleciendo la eficiencia operativa y mejorar el servicio al cliente: 
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=l_InY3fgP_g" target="_blank")
                     span Ir al recurso
@@ -216,7 +216,7 @@
               figure.pt-3
                 img.w-195.mb-4.mb-lg-0(src="@/assets/curso/tema1/16.png", alt="alt")
             .col-sm-8.col-lg-8
-              p A continuación, se invita a ir al siguiente pódcast:
+              p A continuación, sen invita a consultar el siguiente pódcast:
               TarjetaAudio.mb-3(
                 texto="<span style='font-style: normal !important;'>Estrategias logísticas: elemento clave para la competitividad empresarial"
                 tiempo
