@@ -29,469 +29,660 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto:
-            'El plan maestro es simplemente un pronóstico de ventas a largo plazo',
+          texto: '¿Cuál es el propósito principal de una estrategia logística?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Incrementar los costos operativos de la organización.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Coordinar y optimizar las actividades de abastecimiento, almacenamiento, transporte, distribución y servicio al cliente.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Eliminar los controles establecidos en los procesos logísticos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reducir la participación del cliente en las decisiones organizacionales.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
+            'Las estrategias logísticas permiten coordinar y optimizar las actividades de la cadena para mejorar la eficiencia y fortalecer la competitividad empresarial.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente los contenidos relacionados con el concepto y aplicabilidad de las estrategias logísticas.',
         },
         {
           id: 2,
           texto:
-            'El "Disponible para promesa" (ATP) indica cuántas unidades quedan libres para nuevos pedidos sin comprometer los ya existentes.',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué herramienta permite analizar fortalezas, debilidades, oportunidades y amenazas de una organización?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Matriz BCG.', esCorrecta: false },
+            { id: 'b', texto: 'Matriz de crecimiento.', esCorrecta: false },
+            { id: 'c', texto: 'Presupuesto logístico.', esCorrecta: false },
+            { id: 'd', texto: 'Matriz DOFA.', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
+            'La matriz DOFA permite analizar factores internos y externos para apoyar la formulación de estrategias organizacionales.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente los contenidos relacionados con las matrices estratégicas y su aplicabilidad.',
         },
         {
           id: 3,
-          texto:
-            'En la estructura del plan maestro, la "zona congelada" permite realizar ajustes menores según la demanda.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Cuál es una característica de los objetivos logísticos?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Deben formularse de manera clara, medible y alcanzable.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto:
+                'Deben establecerse sin considerar las necesidades del mercado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Deben orientarse exclusivamente al incremento de los inventarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Deben formularse sin relación con las políticas organizacionales.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
+            'Los objetivos logísticos deben formularse de manera clara, medible y alcanzable para facilitar su seguimiento y evaluación.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente los contenidos relacionados con el concepto, diseño y aplicabilidad de los objetivos logísticos.',
         },
         {
           id: 4,
           texto:
-            'La metodología MRP es la más robusta para empresas con procesos complejos y se basa en la explosión de materiales (BOM).',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cuál es el propósito de una política organizacional y logística?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Eliminar los procedimientos establecidos para las operaciones.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Incrementar los tiempos de respuesta al cliente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Orientar y regular las actividades mediante lineamientos y criterios de actuación.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reducir la coordinación entre las diferentes áreas de la organización.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
+            'Las políticas organizacionales y logísticas permiten orientar y regular las actividades mediante lineamientos y criterios de actuación.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente los contenidos relacionados con el concepto, tipos y diseño de las políticas organizacionales y logísticas.',
         },
         {
           id: 5,
           texto:
-            'La Teoría de Restricciones (TOC) utiliza la metodología de "tambor, amortiguador y cuerda" para programar el plan maestro.',
-          imagen: '@/assets/actividad/imagen5.png',
+            '¿Cuál de los siguientes corresponde a un objetivo de servicio al cliente?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Reducir exclusivamente los costos de almacenamiento.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Incrementar la cantidad de productos almacenados.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Disminuir la participación de los clientes en los procesos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Mejorar los tiempos de respuesta, el cumplimiento de entregas y la satisfacción del consumidor.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
+            'Los objetivos de servicio al cliente buscan mejorar los tiempos de respuesta, el cumplimiento de las entregas y la satisfacción del consumidor.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente los contenidos relacionados con los tipos y aplicabilidad de los objetivos logísticos.',
         },
         {
           id: 6,
           texto:
-            'La trazabilidad se define únicamente como una exigencia legal para los sectores de alimentos y medicamentos.',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
-        },
-        {
-          id: 7,
-          texto:
-            'La trazabilidad interna ocurre desde que la mercancía se prepara para el despacho hasta que llega al cliente final.',
+            '¿Cuál es un paso para la aplicación de la planeación estratégica y logística?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Identificar las necesidades operativas y estratégicas de la organización.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Eliminar los indicadores de desempeño.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Suspender la evaluación de los resultados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir el análisis de las capacidades organizacionales.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
+            'Identificar las necesidades operativas y estratégicas permite orientar la formulación de estrategias y acciones logísticas.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente los contenidos relacionados con los pasos para la aplicación de la planeación estratégica y logística.',
         },
         {
-          id: 8,
-          texto:
-            'La norma NTC 1486 (ICONTEC) establece pautas para la presentación de trabajos escritos en el contexto colombiano.',
-          imagen: '@/assets/actividad/imagen3.png',
+          id: 7,
+          texto: '¿Qué se entiende por contingencia estratégica?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Una actividad destinada exclusivamente al control presupuestal.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Una política utilizada para organizar los inventarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Una situación imprevista que requiere acciones de respuesta para minimizar impactos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Un procedimiento para establecer precios de los productos.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
+            'La contingencia estratégica corresponde a una situación imprevista que requiere acciones de respuesta para minimizar sus impactos en la organización.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente los contenidos relacionados con la contingencia estratégica dentro de la planeación logística.',
+        },
+        {
+          id: 8,
+          texto: '¿Qué es un presupuesto logístico?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Una herramienta utilizada únicamente para controlar el servicio al cliente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Una herramienta financiera para calcular y organizar los costos asociados a las operaciones logísticas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Un documento destinado exclusivamente a establecer políticas organizacionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Un procedimiento para identificar las amenazas del mercado.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'El presupuesto logístico permite calcular y organizar los recursos financieros relacionados con las operaciones logísticas.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos relacionados con el concepto y aplicabilidad de los presupuestos logísticos.',
         },
         {
           id: 9,
           texto:
-            'Una cadena de suministro ágil (agile) es ideal para productos de consumo masivo como el arroz o la leche.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cuál es una característica que deben cumplir los objetivos logísticos?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Estar alineados con la misión, visión y políticas organizacionales.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Establecerse únicamente según los costos de transporte.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Definirse sin considerar las capacidades operativas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Orientarse exclusivamente al aumento de las ventas.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
+            'Los objetivos logísticos deben estar alineados con la misión, visión y políticas organizacionales para fortalecer la planeación estratégica.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente los contenidos relacionados con el diseño y aplicabilidad de los objetivos logísticos.',
         },
         {
           id: 10,
           texto:
-            'La trazabilidad ascendente se encarga de identificar el origen de las materias primas e insumos.',
-          imagen: '@/assets/actividad/imagen5.png',
+            '¿Cuál de los siguientes corresponde a un tipo de presupuesto logístico?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Presupuesto de servicio al cliente.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Presupuesto de competitividad.',
               esCorrecta: false,
             },
+            {
+              id: 'c',
+              texto: 'Presupuesto de misión organizacional.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Presupuesto de transporte.', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
+            'El presupuesto de transporte permite planificar los costos relacionados con traslado de mercancías, rutas, combustibles y distribución.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente los contenidos relacionados con los tipos de presupuestos logísticos.',
         },
         {
           id: 11,
           texto:
-            'El diagnóstico estratégico se centra en tareas operativas diarias como el tiempo de picking.',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál es el propósito del desarrollo sostenible aplicado a la logística?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Incrementar el consumo de recursos sin evaluar sus impactos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Eliminar las prácticas de responsabilidad social.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Equilibrar el crecimiento económico, la responsabilidad social y la protección ambiental.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir la importancia de la protección ambiental.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
+            'El desarrollo sostenible busca equilibrar el crecimiento económico, la responsabilidad social y la protección ambiental en los procesos logísticos.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente los contenidos relacionados con el desarrollo sostenible y la logística.',
         },
         {
           id: 12,
           texto:
-            'El valor agregado en logística incluye cumplir con la regla de las 7 "R" (<em>Right</em>).',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
-        },
-        {
-          id: 13,
-          texto:
-            'El análisis prescriptivo es el nivel más avanzado y sugiere qué acciones tomar para alcanzar un objetivo.',
+            '¿Cuál de las siguientes acciones hace parte del planteamiento de estrategias sostenibles?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Analizar el impacto ambiental de las operaciones logísticas.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Eliminar los indicadores de sostenibilidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Incrementar los impactos ambientales de la operación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir el seguimiento de las prácticas responsables.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
+            'Analizar el impacto ambiental permite identificar oportunidades de mejora y orientar estrategias sostenibles en la cadena logística.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente los contenidos relacionados con el planteamiento de estrategias sostenibles.',
+        },
+        {
+          id: 13,
+          texto: '¿Qué permite la aplicación de la normatividad logística?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eliminar los controles operativos de la organización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Garantizar el cumplimiento legal, la seguridad operativa y la eficiencia de los procesos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir la competitividad de la empresa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Suspender el cumplimiento de las regulaciones nacionales e internacionales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'La aplicación de la normatividad logística permite fortalecer el cumplimiento legal, la seguridad operativa y la eficiencia de los procesos.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos relacionados con la normatividad logística vigente y su aplicabilidad.',
         },
         {
           id: 14,
           texto:
-            'En la jerarquía del análisis de datos, el análisis descriptivo explica "por qué pasó" una desviación.',
+            '¿Qué norma está orientada a los sistemas de gestión ambiental?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
+            { id: 'a', texto: 'ISO 9001.', esCorrecta: false },
+            { id: 'b', texto: 'ISO 45001.', esCorrecta: false },
+            { id: 'c', texto: 'ISO 14001.', esCorrecta: true },
+            { id: 'd', texto: 'Normativa aduanera.', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
+            'La ISO 14001 está orientada a los sistemas de gestión ambiental y permite fortalecer las prácticas de sostenibilidad.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente los contenidos relacionados con las normas vigentes aplicadas a los procesos logísticos.',
         },
         {
           id: 15,
           texto:
-            'En un semáforo de gestión, el color amarillo indica que el proceso está en riesgo y exige acción inmediata.',
-          imagen: '@/assets/actividad/imagen5.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
-        },
-        {
-          id: 16,
-          texto:
-            'La metodología SMART asegura que los indicadores sean específicos, medibles, alcanzables, relevantes y temporales.',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
-        },
-        {
-          id: 17,
-          texto:
-            'Si la relación beneficio/costo (B/C) es igual a 1, significa que el proyecto no es rentable y se están generando pérdidas.',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
-        },
-        {
-          id: 18,
-          texto:
-            'Un plan de mejoramiento se basa en la premisa de que lo que no se mide, no se puede mejorar.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
-        },
-        {
-          id: 19,
-          texto:
-            'Los simulacros no son necesarios en los planes de contingencia una vez que el plan es aprobado por la gerencia.',
+            '¿Cuál es una característica de la agenda local aplicada a la logística?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Eliminar la participación de las entidades públicas y privadas.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Reducir la planeación del desarrollo territorial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Disminuir la competitividad empresarial de la región.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Promover el desarrollo regional y fortalecer la infraestructura logística y comercial.',
               esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
+            'La agenda local contribuye al desarrollo regional mediante acciones orientadas al fortalecimiento de la infraestructura logística y comercial.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente los contenidos relacionados con las características y aplicabilidad de las agendas locales.',
         },
         {
-          id: 20,
+          id: 16,
           texto:
-            'El plan de contingencia define el "qué hacer" cuando los pilares de la operación fallan ante riesgos imprevistos.',
+            '¿Qué estrategia logística está orientada a garantizar la disponibilidad de materias primas, productos o servicios?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Estrategia de abastecimiento.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Estrategia de distribución.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Estrategia de expansión logística.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Estrategia de servicio al cliente.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'La estrategia de abastecimiento está orientada a garantizar la disponibilidad de materias primas, productos o servicios necesarios para la operación.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos relacionados con los tipos de estrategias logísticas y su aplicabilidad.',
+        },
+        {
+          id: 17,
+          texto: '¿Cuál es una finalidad de los presupuestos logísticos?',
           imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Eliminar la planificación de los recursos financieros.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Incrementar los gastos operativos sin realizar controles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Planificar recursos, controlar gastos y apoyar la toma de decisiones estratégicas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir la evaluación de las inversiones realizadas.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las generalidades del diagnóstico integral de procesos logísticos.',
+            'Los presupuestos logísticos permiten planificar recursos, controlar gastos y apoyar la toma de decisiones estratégicas.',
           mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente los contenidos relacionados con la aplicabilidad de los presupuestos logísticos.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué acción contribuye al diseño de políticas organizacionales y logísticas?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Eliminar las responsabilidades de las áreas involucradas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Definir lineamientos y criterios de actuación alineados con los objetivos organizacionales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Formular políticas sin considerar el marco filosófico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir los mecanismos de control de las operaciones.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'El diseño de políticas requiere definir lineamientos y criterios de actuación alineados con los objetivos de la organización.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos relacionados con el diseño de políticas organizacionales y logísticas.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Cuál es uno de los beneficios de implementar una agenda local?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Reducir la articulación entre los sectores productivos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Eliminar las iniciativas de desarrollo empresarial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Disminuir las oportunidades de crecimiento regional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Fortalecer la competitividad, productividad y sostenibilidad de las organizaciones.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'La implementación de agendas locales permite fortalecer la competitividad, productividad y sostenibilidad mediante acciones articuladas en el territorio.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos relacionados con la agenda local y su adopción.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué permite verificar una estrategia logística después de su implementación?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La eliminación de los objetivos organizacionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'El cumplimiento de los resultados mediante indicadores de desempeño y ajustes de mejora.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'La reducción del seguimiento de las operaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La suspensión de las acciones de mejora.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'La verificación mediante indicadores permite evaluar los resultados obtenidos y realizar ajustes de mejora según las necesidades del entorno empresarial.',
+          mensaje_incorrecto:
+            'Revise nuevamente los contenidos relacionados con la formulación, implementación y verificación de las estrategias logísticas.',
         },
       ],
       mensaje_final_aprobado:
-        '¡Excelente! Lo felicito, ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
+        '¡Felicitaciones! Ha aprobado satisfactoriamente la actividad de aprendizaje. Su resultado evidencia la apropiación de los conceptos relacionados con la formulación y verificación de estrategias logísticas.',
       mensaje_final_reprobado:
-        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'Aún puede fortalecer sus conocimientos. Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con estrategias, objetivos, políticas, planeación, contingencias, presupuestos, sostenibilidad, normatividad y agenda local. ',
     },
   }),
 }

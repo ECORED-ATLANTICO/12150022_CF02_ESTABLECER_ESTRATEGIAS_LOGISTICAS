@@ -135,20 +135,6 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-xl-10
-        .tarjeta.bg-video.p-4.p-lg-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-xl-2.d-none.d-lg-block
-              img.imgw-72(src="@/assets/curso/tema1/14.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con política organizacional, logística y su aplicación en empresas industriales, comerciales y de servicios.   
-                .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=kTbof9tbZOo" target="_blank")
-                    span Ir al recurso
-
-    .row.justify-content-center.align-items-center.mb-4
-      .col-xl-10
         .tarjeta.bg-recurso.p-4.p-lg-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-xl-2.d-none.d-lg-block

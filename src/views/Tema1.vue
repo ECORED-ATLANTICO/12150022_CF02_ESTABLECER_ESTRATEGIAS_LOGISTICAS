@@ -218,7 +218,7 @@
             .col-sm-8.col-lg-8
               p A continuación, se invita a ir al siguiente pódcast:
               TarjetaAudio.mb-3(
-                texto="Estrategias logísticas: elemento clave para la competitividad empresarial"
+                texto="<span style='font-style: normal !important;'>Estrategias logísticas: elemento clave para la competitividad empresarial"
                 tiempo
                 :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false")

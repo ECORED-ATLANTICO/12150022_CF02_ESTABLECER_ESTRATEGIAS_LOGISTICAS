@@ -197,9 +197,9 @@
             .col-sm-8.col-lg-8
               p A continuación, se invita a ir al siguiente pódcast:
               TarjetaAudio.mb-3(
-                texto="Planeación estratégica y logística: decisiones organizacionales orientadas al crecimiento."
+                texto="<span style='font-style: normal !important;'>Planeación estratégica y logística: decisiones organizacionales orientadas al crecimiento"
                 tiempo
-                :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
+                :audio="require_src('@/assets/curso/podcast/podcast2.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false")           
 
 </template>

@@ -16,6 +16,8 @@
           .p-4
             p.mb-0(data-aos="fade-up") Las organizaciones requieren formular y verificar estrategias logísticas orientadas al fortalecimiento de la competitividad, optimización de recursos y mejoramiento del nivel de servicio al cliente. Para ello, resulta fundamental analizar situaciones empresariales reales que permitan comprender la aplicación de estrategias, políticas, presupuestos y normatividad dentro de los procesos logísticos.
 
+    p.mb-3 A continuación, se presenta un caso empresarial aplicado relacionado con la formulación y verificación de estrategias logísticas.
+
     .row.justify-content-center.align-items-center.mb-4
       .col-xl-10
         .tarjeta.bg-recurso.p-4

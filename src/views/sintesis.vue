@@ -12,7 +12,7 @@
     .row.justify-content-center
       .col-lg-10.col-xl-8
         figure
-          img.mb-5(src="@/assets/curso/sintesis.svg", alt="")
+          img.mb-5(src="@/assets/curso/sintesis.svg", alt="La estructura jerárquica que organiza los contenidos del componente formativo “Formulación y verificación de estrategias logísticas”. Esta presenta diferentes áreas temáticas relacionadas con la planificación y gestión logística, desarrolladas mediante conceptos, clasificaciones, herramientas, diseño, aplicación y seguimiento. Además, integra aspectos económicos, organizacionales, sostenibles y normativos, finalizando con un caso empresarial. La organización visual permite comprender la relación entre los temas y su secuencia dentro del proceso de formulación y verificación de estrategias logísticas.")
       .col-12
         .row.justify-content-center
           .col-auto

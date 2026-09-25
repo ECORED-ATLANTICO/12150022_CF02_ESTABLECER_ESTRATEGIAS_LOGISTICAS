@@ -11,6 +11,7 @@
     .row.justify-content-center.z-2
       .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
         div.banner-text.shadow
+          p.mb-1 En la gestión de las operaciones logísticas, la adecuada planificación de los recursos económicos permite proyectar costos operativos, evaluar inversiones y fortalecer la eficiencia de los procesos logísticos frente a las necesidades del mercado.
           p.mb-0 Contar con esta información facilita tomar decisiones, establecer prioridades y controlar el comportamiento de los gastos frente a los resultados esperados, contribuyendo al cumplimiento de los objetivos y a la sostenibilidad de las estrategias formuladas por la organización. 
     
     separador 
@@ -94,8 +95,8 @@
     .titulo-sexto.color-acento-contenido.mb-4
       h5 Figura 1.
       span Pasos para la aplicación de presupuestos logísticos
-    img.mb-4.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema5/5-mob.svg", alt="La figura la aplicación progresiva de un presupuesto logístico dentro de una organización. La secuencia integra la identificación de necesidades operativas con la planificación y asignación de recursos financieros, así como su posterior seguimiento y evaluación. El carácter cíclico evidencia que la gestión presupuestal requiere revisión permanente y ajustes frente a los resultados obtenidos y las condiciones del entorno, favoreciendo el control de los recursos y la continuidad de las operaciones logísticas.")
-    img.mb-4.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema5/5.svg", alt="La figura la aplicación progresiva de un presupuesto logístico dentro de una organización. La secuencia integra la identificación de necesidades operativas con la planificación y asignación de recursos financieros, así como su posterior seguimiento y evaluación. El carácter cíclico evidencia que la gestión presupuestal requiere revisión permanente y ajustes frente a los resultados obtenidos y las condiciones del entorno, favoreciendo el control de los recursos y la continuidad de las operaciones logísticas.")
+    img.mb-4.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema5/5-mob.svg", alt="La figura muestra el proceso de aplicación de un presupuesto logístico dentro de una organización. La secuencia integra la identificación de necesidades operativas con la planificación y asignación de recursos financieros, así como su posterior seguimiento y evaluación. El carácter cíclico evidencia que la gestión presupuestal requiere revisión permanente y ajustes frente a los resultados obtenidos y las condiciones del entorno, favoreciendo el control de los recursos y la continuidad de las operaciones logísticas.")
+    img.mb-4.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema5/5.svg", alt="La figura muestra el proceso de aplicación de un presupuesto logístico dentro de una organización. La secuencia integra la identificación de necesidades operativas con la planificación y asignación de recursos financieros, así como su posterior seguimiento y evaluación. El carácter cíclico evidencia que la gestión presupuestal requiere revisión permanente y ajustes frente a los resultados obtenidos y las condiciones del entorno, favoreciendo el control de los recursos y la continuidad de las operaciones logísticas.")
     //- figcaption Nota. Adaptada de SENA, (2026).
  
     .row.justify-content-center.mb-4
@@ -119,7 +120,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 A continuación, se invita a ir al siguiente video para ampliar los conocimientos relacionados con estrategias logísticas y su aplicación en organizaciones industriales y servicios fortaleciendo la eficiencia operativa y mejorar el servicio al cliente: 
+                  p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con presupuestos logísticos y su aplicación en organizaciones industriales, comerciales y de servicios. 
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=mlhV9BQfEQ4" target="_blank")
                     span Ir al recurso

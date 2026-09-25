@@ -80,7 +80,7 @@
 
     p.mb-4.mb-lg-5 Asimismo, deben estar alineados con la misión, visión y políticas organizacionales para fortalecer la planeación estratégica de la empresa. 
 
-    p.mb-4.mb-lg-5 Pasos para el diseño de objetivos logístico: 
+    p.mb-4.mb-lg-5 Pasos para el diseño de objetivos logísticos: 
 
 
     SlyderF(columnas="col-sm-6 col-xl-4 mb-5")
@@ -171,7 +171,10 @@
                 p.mb-0 Facilita asociar indicadores y criterios de medición que permitan conocer el avance, cumplimiento y comportamiento de los procesos frente a las metas propuestas. 
               div.my-5.w-75.mx-auto
                 h4 Verificar resultados 
-                p.mb-0 Permite comparar los resultados obtenidos con los objetivos planteados para determinar la efectividad de las estrategias y reconocer posibles desviaciones. 
+                p.mb-0 Permite comparar los resultados obtenidos con los objetivos planteados para determinar la efectividad de las estrategias y reconocer posibles desviaciones.
+              div.my-5.w-75.mx-auto
+                h4 Orientar mejoras 
+                p.mb-0 A partir de los resultados obtenidos, facilita establecer ajustes y nuevas acciones que fortalezcan el desempeño y favorezcan la mejora continua de los procesos logísticos. 
 
     .row.justify-content-center.mb-4
       .col-xl-10
