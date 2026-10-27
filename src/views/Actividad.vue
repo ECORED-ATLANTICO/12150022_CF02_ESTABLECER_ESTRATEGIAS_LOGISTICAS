@@ -22,7 +22,7 @@ export default {
       tema: 'Diagnóstico de las estrategias en la logística',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> validar el conocimiento adquirido sobre las generalidades estrategias logísticas: planeación y verificación.',
+        '<b> Objetivo:</b> validar el conocimiento adquirido sobre las generalidades estrategias logísticas: formulación y verificación.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',

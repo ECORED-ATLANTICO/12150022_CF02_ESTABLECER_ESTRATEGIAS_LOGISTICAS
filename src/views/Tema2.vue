@@ -209,7 +209,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Se invita al aprendiz a profundizar en lo relacionado a objetivos logísticos, a través del siguiente libro. Páginas 34-35. 
+                  p.mb-0 Se invita al aprendiz a profundizar en lo relacionado a objetivos logísticos, a través del siguiente libro. Páginas 31. 
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.texto-blanco(href="https://www.fesc.edu.co/portal/archivos/e_libros/logistica/gestion_logistica.pdf" target="_blank")
                     span Ir al recurso

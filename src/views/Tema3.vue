@@ -89,28 +89,28 @@
             th(colspan="3") Aplicación
         tbody
           tr
-            td #[strong Diagnóstico organizacional]
+            td Diagnóstico organizacional
             td(colspan="3") Permite conocer las condiciones actuales de los procesos logísticos, identificando necesidades, dificultades, fortalezas y oportunidades que sirven como referencia para establecer lineamientos acordes con la realidad de la organización. 
           tr(style="background-color: #F6F6F6")
-            td #[strong Objetivos organizacionales] 
+            td Objetivos organizacionales 
             td(colspan="3") Orientan la construcción de políticas hacia los resultados estratégicos esperados, procurando que las decisiones logísticas contribuyan al cumplimiento de las prioridades, metas y propósitos definidos por la organización. 
           tr
-            td #[strong Alcance de la política]
+            td Alcance de la política
             td(colspan="3") Delimita las áreas, procesos, actividades, recursos y actores sobre los cuales tendrá aplicación la política, facilitando su comprensión y evitando interpretaciones diferentes durante su implementación. 
           tr(style="background-color: #F6F6F6")
-            td #[strong Criterios de actuación]
+            td Criterios de actuación
             td(colspan="3") Establecen parámetros para orientar decisiones y comportamientos frente a situaciones específicas, proporcionando referentes comunes para desarrollar las actividades logísticas de manera coherente con los lineamientos organizacionales. 
           tr
-            td #[strong Recursos y capacidades]
+            td Recursos y capacidades
             td(colspan="3") Consideran la disponibilidad de personal, infraestructura, tecnología, presupuesto y demás medios necesarios para determinar si los lineamientos establecidos pueden implementarse de manera viable dentro de la operación. 
           tr(style="background-color: #F6F6F6")
-            td #[strong Requisitos aplicables]
+            td Requisitos aplicables
             td(colspan="3") Integran las disposiciones legales, técnicas, contractuales y organizacionales relacionadas con la operación, procurando que las políticas formuladas respondan a las condiciones y obligaciones que debe cumplir la organización. 
           tr
-            td #[strong Responsabilidades]
+            td Responsabilidades
             td(colspan="3") Definen quiénes participan en la aplicación, comunicación, seguimiento y control de la política, facilitando la asignación de funciones y la coordinación entre las diferentes áreas involucradas. 
           tr(style="background-color: #F6F6F6")
-            td #[strong Seguimiento y actualización]
+            td Seguimiento y actualización
             td(colspan="3") Facilitan revisar periódicamente el cumplimiento y pertinencia de las políticas, identificando necesidades de ajuste frente a cambios en los procesos, objetivos, normatividad, mercado o condiciones de la operación logística. 
 
     separador
@@ -142,7 +142,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Se invita al aprendiz a profundizar en política organizacional y logística, a través del siguiente artículo: 
+                  p.mb-0 Se invita al aprendiz a profundizar en la logística integral - su importancia en las empresas, a través del siguiente artículo: 
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.texto-blanco(href="https://ccas.org.co/wp-content/uploads/Logistica-integral.pdf" target="_blank")
                     span Ir al recurso

@@ -134,7 +134,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Se invita al aprendiz a profundizar en presupuestos logísticos, a través del siguiente artículo: 
+                  p.mb-0 Se invita al aprendiz a profundizar en el impacto de la tecnología en la industria logística, a través del siguiente artículo:
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.texto-blanco(href="https://thelogisticsworld.com/wp-content/uploads/2023/12/E-Book-Tecnologia-Logistica.pdf " target="_blank")
                     span Ir al recurso

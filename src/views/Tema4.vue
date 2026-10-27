@@ -91,15 +91,15 @@
             th(colspan="2") Ejemplo aplicado 
         tbody
           tr(style="background-color: #F6F6F6")
-            td #[strong Interrupciones en cadenas de abastecimiento]
+            td Interrupciones en cadenas de abastecimiento
             td(colspan="2") Situaciones que alteran o detienen el flujo normal de materiales, productos o información entre proveedores y demás participantes de la cadena, generando posibles faltantes, retrasos y afectaciones en la continuidad operativa. 
             td(colspan="2") El proveedor principal incumple la entrega de materia prima; la empresa activa un proveedor alternativo para evitar detener la producción. 
           tr
-            td #[strong Incrementos inesperados en costos de transporte]
+            td Incrementos inesperados en costos de transporte
             td(colspan="2") Variaciones no previstas en combustibles, tarifas, peajes, disponibilidad de vehículos u otras condiciones que aumentan los costos de movilización y pueden afectar la rentabilidad y planificación de la distribución. 
             td(colspan="2") Ante un incremento del combustible, una distribuidora consolida pedidos y reorganiza rutas para disminuir recorridos y controlar el costo por entrega. 
           tr(style="background-color: #F6F6F6")
-            td #[strong Fallas tecnológicas y operativas]
+            td Fallas tecnológicas y operativas
             td(colspan="2") Eventos relacionados con sistemas, equipos, infraestructura o procedimientos que dificultan la ejecución de las actividades logísticas y pueden afectar inventarios, preparación de pedidos, trazabilidad, despachos o entregas. 
             td(colspan="2") Una falla del WMS impide consultar ubicaciones; el centro de distribución activa registros de respaldo y procedimientos temporales para continuar preparando pedidos. 
 

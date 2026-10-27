@@ -43,51 +43,51 @@
             th(colspan="2") Aplicación en logística
         tbody
           tr
-            td #[strong Ley 105 de 1993] 
+            td Ley 105 de 1993 
             td Sector transporte
             td(colspan="2") Establece disposiciones básicas sobre transporte y principios relacionados con la infraestructura y prestación del servicio. Es un referente general para la movilización de mercancías.
           tr(style="background-color: #F6F6F6")
-            td #[strong Ley 336 de 1996 - Estatuto Nacional de Transporte] 
+            td Ley 336 de 1996 - Estatuto Nacional de Transporte 
             td Transporte 
             td(colspan="2") Establece disposiciones generales para los diferentes modos de transporte y constituye uno de los principales referentes legales del sector. 
           tr
-            td #[strong Decreto 1079 de 2015] 
+            td Decreto 1079 de 2015 
             td Sector transporte 
             td(colspan="2") Es el Decreto Único Reglamentario del Sector Transporte. Reúne disposiciones aplicables al transporte terrestre automotor, incluida la operación de carga. 
           tr
-            td #[strong Resolución 20223040045515 de 2022]
+            td Resolución 20223040045515 de 2022
             td Transporte de carga - RNDC 
             td(colspan="2") Regula aspectos operativos del Registro Nacional de Despachos de Carga, utilizado para registrar información relacionada con las operaciones de transporte terrestre de carga. 
           tr(style="background-color: #F6F6F6")
-            td #[strong Ley 9 de 1979 - Código Sanitario Nacional] 
+            td Ley 9 de 1979 - Código Sanitario Nacional 
             td Condiciones sanitarias
             td(colspan="2") Establece disposiciones sanitarias aplicables, entre otras actividades, al almacenamiento y transporte de alimentos, bebidas y determinados productos.
           tr
-            td #[strong Resolución 2674 de 2013] 
+            td Resolución 2674 de 2013 
             td Logística de alimentos
             td(colspan="2") Establece requisitos sanitarios para fabricación, almacenamiento, transporte, distribución y comercialización de alimentos y materias primas. Es especialmente relevante para cadenas de suministro de alimentos.
           tr(style="background-color: #F6F6F6")
-            td #[strong Decreto 1165 de 2019] 
+            td Decreto 1165 de 2019 
             td Régimen aduanero
             td(colspan="2") Regula las operaciones relacionadas con el ingreso, permanencia, traslado y salida de mercancías del territorio aduanero nacional. Es fundamental para logística internacional.
           tr
-            td #[strong Normativa reglamentaria DIAN del régimen aduanero] 
+            td Normativa reglamentaria DIAN del régimen aduanero 
             td Comercio exterior
             td(colspan="2") Complementa el régimen aduanero y desarrolla procedimientos relacionados con importación, exportación, tránsito y demás operaciones aduaneras. La DIAN mantiene una compilación normativa actualizada.
           tr(style="background-color: #F6F6F6")
-            td #[strong Decreto 1072 de 2015] 
+            td Decreto 1072 de 2015 
             td Seguridad y salud en el trabajo
             td(colspan="2") Constituye un referente para gestionar la seguridad y salud de los trabajadores que participan en almacenamiento, manipulación, transporte y demás operaciones logísticas.
           tr
-            td #[strong Decreto 1076 de 2015] 
+            td Decreto 1076 de 2015 
             td Gestión ambiental
             td(colspan="2") Compila la reglamentación del sector ambiente y constituye un referente para aspectos ambientales que pueden involucrar residuos y actividades desarrolladas dentro de las cadenas logísticas.
           tr(style="background-color: #F6F6F6")
-            td #[strong Resolución 1407 de 2018] 
+            td Resolución 1407 de 2018 
             td Envases y empaques
             td(colspan="2") Reglamenta la gestión ambiental de residuos de envases y empaques de papel, cartón, plástico, vidrio y metal. Tiene relación directa con sostenibilidad y logística inversa.
           tr
-            td #[strong Ley 1480 de 2011 - Estatuto del Consumidor] 
+            td Ley 1480 de 2011 - Estatuto del Consumidor 
             td Protección al consumidor
             td(colspan="2") Incide en las relaciones comerciales y en aspectos asociados con entrega, calidad, información, garantías y cumplimiento frente al consumidor.
 
@@ -118,32 +118,32 @@
             th Ejemplo empresarial
         tbody
           tr
-            td #[strong Microempresa] 
+            td Microempresa 
             td Cumplimiento básico relacionado con transporte, seguridad y atención al cliente.
             td Fortalece organización operativa y cumplimiento legal básico.
             td Emprendimientos de distribución local y comercio digital.
           tr(style="background-color: #F6F6F6")
-            td #[strong Pequeña empresa] 
+            td Pequeña empresa 
             td Aplicación de normas relacionadas con calidad y control operativo.
             td Mejora procesos logísticos y competitividad regional.
             td Empresas regionales de almacenamiento y distribución.
           tr
-            td #[strong Mediana empresa] 
+            td Mediana empresa 
             td Implementación de normas de calidad, seguridad y sostenibilidad.
             td Optimiza operaciones y fortalece crecimiento empresarial.
             td Empresas comerciales y operadores logísticos nacionales.
           tr
-            td #[strong Gran empresa] 
+            td Gran empresa 
             td Aplicación de normas nacionales e internacionales relacionadas con calidad, sostenibilidad y comercio exterior.
             td Fortalece competitividad y expansión empresarial. 
             td FedEx desarrolla operaciones ajustadas a regulaciones internacionales. 
           tr(style="background-color: #F6F6F6")
-            td #[strong Operador logístico internacional] 
+            td Operador logístico internacional 
             td Aplicación de normativas aduaneras, comercio exterior y seguridad logística global. 
             td Facilita operaciones internacionales y control de riesgos logísticos. 
             td DHL implementa estándares internacionales en transporte y distribución. 
           tr
-            td #[strong Empresa de comercio electrónico] 
+            td Empresa de comercio electrónico 
             td Aplicación de normas relacionadas con comercio digital y protección de datos.
             td Fortalece confianza del consumidor y seguridad de operaciones digitales.
             td Amazon implementa regulaciones de comercio electrónico y protección de información.
